@@ -1,0 +1,716 @@
+l=int(input("length in cm"))
+b=int(input("breadth in cm"))
+a=l*b
+print("your area rectangle is:",a,"cm^")
+o/p :length in cm 4
+breadth in cm 8
+your area rectangle is: 32 cm^
+
+
+r=int(input("enter your radious"))
+a=5.16*(r*r)
+print("your area is:",a)
+o/p:enter your radious 25
+your area is: 3225.0
+
+
+
+l=int(input("enter length"))
+b=int(input("enter breadth"))
+h=int(input("enter height"))
+a=2*(1*b+b*h+h*1)
+print("the area is:",a)
+o/p:enter length 8
+enter breadth 5
+enter height 10
+the area is: 130
+
+
+
+r=int(input("enter radious"))
+h=int(input("enter height"))
+a=2*(3.14*(r*h))
+print("your c.s.a is:",a)
+o/p:enter radious 10
+enter height 30
+your c.s.a is: 10980.0
+
+
+
+r=int(input("enter radious"))
+h=int(input("enter height"))
+a=2.3.14*r*(r+h)
+print("area is:",a)
+o/p:enter radious 8
+enter height 10
+area is: 3654.7200000000003
+
+
+
+r=int(input("enter radious"))
+l=int(input("enter length"))
+a=3.14*r*l
+print("csa is:",a)
+o/p:enter radious 11
+enter length 26
+csa is: 49.61
+
+
+
+r=int(input("enter radious"))
+l=int(input("enter slant height8"))
+a=3.14*r*(1+r)
+print("the tsa is:",a)
+o/p:enter radious 15
+enter slant height8 32
+the tsa is: 753.6
+
+
+
+a=int(input("enter length of cube"))
+x=6*(a*a)
+print("the area of cube is:",x)
+o/p:enter length of cube 4
+the area of cube is: 96
+
+
+
+r=int(input("enter radious"))
+a=4*(3.14*(r*r))
+print("tsa of sphere is:",a)o/p:
+o/p:enter radious 16
+tsa of sphere is: 3215.36
+
+
+
+l=int(input("enter length"))
+b=int(input("enter breadth"))
+h=int(input("enter height"))
+a=l*b*h
+print("volume of cubiodis:",a)
+o/p:enter length 18
+enter breadth 15
+enter height 16
+volume of cubiodis: 4320
+
+
+
+l=int(input("enter length"))
+a=l*l*l
+print("volume ofcube is:",a)
+o/p:enter length 22
+volume ofcube is: 10648
+
+
+
+r=int(input("enter radious"))
+h=int(input("enter height"))
+v=3.14*(r*r)*h
+print("volume is:",v)
+o/p:enter radious 32
+enter height 45
+volume is: 48230.4
+
+
+
+r=int(input("enter radious"))
+v=4/3*(3.14*(r*r*r))
+print("volume is:",v)
+o/p:enter radious 23
+volume is: 50939.17333333334
+
+
+
+l=int(input("enter length in cm"))
+b=int(input("enter breadth in cm"))
+a=2*(l+b)
+print("perimeter of rectangle is:",a,"cm")
+o/p:enter length in cm 4
+enter breadth in cm 6
+perimeter of rectangle is: 20 cm
+
+
+
+a=int(input("enter length in cm"))
+x=a*a
+print("your area of square is:",x,"cm^2")
+o/p:enter length in cm 42
+your area of square is: 1764 cm^2
+
+
+
+h=int(input("enter height"))
+b=int(input("enter base"))
+a=1/2*(b*h)
+print("your area is:",a,"cm^2")
+o/p:enter height 5
+enter base 12
+your area is: 30.0 cm^2
+
+
+
+a=int(input("enter frist no"))
+b=int(input("enter second no"))
+c=int(input("enter third no"))
+if a>b:
+    if a>c:
+        print("the greatest no is:",a)
+    else:
+        print("the greatest no is:",c)
+else:
+    if b>c:
+        print("the greatest no is:",b)
+    else:
+        print("the greatest no is:",c)
+o/p:enter frist no 12
+enter second no 10
+enter third no 15
+the greatest no is: 15
+
+
+
+a=int(input("enter frist side of tringle"))
+b=int(input("enter second side of tringle"))
+c=int(input("enter third side of tringle"))
+perimeter=a+b+c
+print("the perimeter is:",perimeter)
+o/p:enter frist side of tringle 6
+enter second side of tringle 4
+enter third side of tringle 8
+the perimeter is: 18
+
+
+
+a=float(input("enter frist no"))
+b=float(input("enter second no"))
+c=float(input("enter third no"))
+d=float(input("enter fourth no"))
+if (a>b and a>c and a>d):
+    print("greatest number is:",a)
+elif (b>c and b>d):
+     print("greatest number is:",b)
+elif (c>d):
+     print("greatest number is:",c)
+elif (d>c):
+     print("greatest number is:",d)
+else:
+    print("either any two values or all the four values are equal")
+o/p:enter frist no 20
+enter second no 32
+enter third no 45
+enter fourth no 21
+greatest number is: 45.0
+
+
+
+a=eval(input("enter marks out of 300"))
+b=a/300*100
+print("percentage is",b,"%")
+if(a>300):
+    print("you enter a wrong marks")
+elif b>60:
+     print("your divison is frist")
+elif (b>50 and b<53):
+     print("your dividon is second")
+elif(b>33 and b<50):
+     print("your divison is third")
+else:
+    print("fail")
+o/p:enter marks out of 300 42
+percentage is 14.000000000000002 %
+fail
+
+
+
+y=int(input("enter your age"))
+if (y>0 and y<12):
+    print("kid")
+elif(y>=12 and y<19):
+    print("teenager")
+elif(y>19 and y<30):
+    print("young")
+elif(y>30 and y<45):
+    print("nature")
+elif(y>45 and y<60):
+    print("experienced")
+elif(y>60 and y<75):
+    print("old")
+elif(y>75):
+      print("senior cetixen")
+o/p:enter your age 20
+young
+
+
+
+n=int(input("enter limit"))
+s=0
+for c in range(1,n):
+    s=c+s
+print("the sum is",s)
+o/p:enter limit 24
+the sum is 276
+
+
+
+a=int(input("enter number"))
+factorial =1
+if a<0:
+    print("sorry,factorial does not exist for negative number")
+elif a==0:
+    print("the factorial of 0 is 1")
+else:
+    for i in range(1,a+1):
+        factorial=factorial*i
+print("the factorial of",a,"is",factorial)
+ o/p:enter number 15
+the factorial of 15 is 1307674368000
+
+
+
+
+a=int(input("show the maltiplication table of?"))
+for i in range(1,11):
+    print(a,"x",i,a*i)
+o/p:show the maltiplication table of? 26
+26 x 1 26
+26 x 2 52
+26 x 3 78
+26 x 4 104
+26 x 5 130
+26 x 6 156
+26 x 7 182
+26 x 8 208
+26 x 9 234
+26 x 10 260
+
+
+
+num=int(input("enter the number rows"))
+for i in range(num,0,-1):
+    for j in range(0,i):
+        print("*",end="")
+    print()
+o/p:enter the number rows 6
+******
+*****
+****
+***
+**
+*
+
+
+
+n=int(input("enter the no of rows:"))
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(i,end="")
+    print()
+o/p:enter the no of rows: 8
+1
+22
+333
+4444
+55555
+666666
+7777777
+88888888
+
+
+
+num=int(input("enter the number rows"))
+for i in range(0,num):
+    for j in range(0,num-i):
+        print(" ",end="")
+    for k in range(0,i+1):
+        print("*",end="")
+    print("")
+o/p:enter the number rows 6
+      *
+     **
+    ***
+   ****
+  *****
+ ******
+
+
+
+n=int(input("enter the no of rows:"))
+for i in range(1,n+1):
+    for j in range(1,i+1):
+        print(j,end="")
+    print()
+o/p:enter the no of rows: 10
+1
+12
+123
+1234
+12345
+123456
+1234567
+12345678
+123456789
+12345678910
+
+
+
+a=eval(input("enter the range"))
+i=0
+frist_value=0
+second_value=1
+while(i<a):
+    if(i<=1):
+        next=i
+    else:
+        next=frist_value+second_value
+        frist_value=second_value
+        second_value=next
+    print(next)
+    i=i+1
+o/p:enter the range 12
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+
+
+
+number=int(input("enter the range"))
+frist_value=0
+second_value=1
+for num in range(0,number):
+    if(num<=1):
+        NEXT=num
+    else:
+        NEXT=frist_value+second_value
+        frist_value=second_value
+        second_value=NEXT
+    print(NEXT)
+o/p:enter the range 16
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+55
+89
+144
+233
+377
+610
+
+
+
+ch=str(input("enter a character"))
+a=ord(ch)
+for x in range(65,a+1):
+    for c in range(65,x+1):
+        print(chr(c),end="")
+    print("")
+o/p:enter a character A
+A
+
+
+
+X=int(input("enter no"))
+b=int(input("enter power"))
+y=x
+for a in range(0,b-1):
+    y=x*y
+print(y)
+o/p:enter no 20
+enter power 16
+101534516782101416168212890625
+
+
+
+a=int(input("enter number"))
+b=int(input("enter power"))
+c=a**b
+print(c)
+o/p:enter number 34
+enter power 2
+1156
+
+
+
+n=int(input("enter number"))
+x=n
+r=0
+while n>0:
+    d=n%10
+    r=r*10+d
+    n=n/10
+if x==r:
+    print("the number is palindrome")
+else:
+    print("the number is not palindrome")
+o/p:enter number 22
+the number is not palindrome
+
+
+
+a=[]
+fact=[]
+ch="y"
+while ch=="y" or ch=="y":
+      item=int(input("enter the element of list"))
+      a.append(item)
+      ch=input("do tou want to enter more element:")
+print("the list is:",a)
+for i in a:
+    f=1
+    for j in range(1,i+1):
+        f=f*j
+    fact.append(f)
+print("the factorial of each element is:",fact)
+o/p:enter the element of list 6
+do tou want to enter more element: 8
+the list is: [6]
+the factorial of each element is: [720]
+
+
+
+n=int(input("enter rows"))
+for i in range(0,n):
+    for j in range(0,n-i-1):
+        print(end=" ")
+    for j in range(0,i+1):
+        print("*",end=" ")
+    print()
+o/p:enter rows 10
+         * 
+        * * 
+       * * * 
+      * * * * 
+     * * * * * 
+    * * * * * * 
+   * * * * * * * 
+  * * * * * * * * 
+ * * * * * * * * * 
+* * * * * * * * * * 
+
+
+
+a=eval(input("enter limit"))
+n=[]
+for a in range(1,a+1):
+    a=eval(input("enter element"))
+    n.append(a)
+print(n)
+o/p:enter limit 5
+enter element 12
+enter element 15
+enter element 20
+enter element 14
+enter element 18
+[12, 15, 20, 14, 18]
+
+
+
+a=eval(input("enter limit"))
+list=[]
+for a in range(1,a+1):
+    a=eval(input("enter element"))
+    list.append(a)
+print(list)
+l=len(list)
+for i in range(1):
+    for j in range(0,1-i-1):
+        if list[j]>list[j+1]:
+            temp=list[j]
+            list[j]=list[j+1]
+            list[j+1]=temp
+print("after sorting the list is")
+print(list)
+o/p:enter limit 6
+enter element 15
+enter element 20
+enter element 25
+enter element 32
+enter element 16
+enter element 22
+[15, 20, 25, 32, 16, 22]
+after sorting the list is
+[15, 20, 25, 32, 16, 22]
+
+
+
+a=eval(input("enter limit"))
+list=[]
+for a in range(1,a+1):
+    a=eval(input("enter element"))
+    list.append(a)
+print(list)
+l=len(list)
+for i in range(1):
+    for j in range(0,1-i-1):
+        if list[j]>list[j+1]:
+            temp=list[j]
+            list[j]=list[j+1]
+            list[j+1]=temp
+print("after sorting the list is")
+print(list)
+o/p:enter limit 2
+enter element 4
+enter element 6
+[4, 6]
+after sorting the list is
+[4, 6]
+
+
+
+n=int(input("enter limit"))
+m={}
+mob=0
+name=""
+i=0
+for i in range(0,n):
+    mob=int(input("enter mobile number"))
+    name=str(input("enter name"))
+    z2=dict({mob:name})
+    m.update(z2)
+print(m)
+n=int(input("enter the no of search in dictionary"))
+print("the name of person is",m[n])
+  o/p:enter limit 4
+enter mobile number 9640947257
+enter name kavitha
+enter mobile number 9640947257
+enter name kavitha
+enter mobile number 9640947257
+enter name kavitha
+enter mobile number 9640947257
+enter name kavitha
+{9640947257: 'kavitha'}
+enter the no of search in dictionary 9640947257
+the name of person is Kavitha
+
+
+
+num=int(input("enter number"))
+lim=int(num/2)+1
+for i in range(2,lim):
+    rem=num%i
+    if rem==0:
+        print(num,"is not prime number")
+        break
+else:
+    print(num,"is prime number")
+o/p:enter number 8
+8 is not prime number
+
+
+
+
+num=int(input("enter number"))
+lim=int(num/2)+1
+for i in range(2,lim):
+    rem=num%i
+    if rem==0:
+        print(num,"is not prime number")
+        break
+else:
+    print(num,"is prime number")
+o/p:enter number 4
+4 is not prime number
+
+
+
+a=int(input("enter number"))
+r=a%2
+if r==0:
+    print(a,"is even number")
+elif r>0:
+        print(a,"is not odd number")
+else:
+       print("you enter a number 0 or less than 0")
+o/p:enter number 7
+7 is not odd number
+
+
+
+a=()
+l=[]
+n=int(input("enter limit"))
+for i in range(0,n):
+    item=int(input("enter element"))
+    l.append(item)
+a=a+tuple(l)
+print("tuple is",a)
+o/p:enter limit 4
+enter element 22
+enter element 39
+enter element 42
+enter element 25
+tuple is (22, 39, 42, 25)
+
+
+
+n=int(input("enter the integer"))
+x=n
+r=0
+while n>0:
+    d=n%10
+    r=r*10+d
+    n=n/10
+print("the reversed integer is:",r)
+o/p:enter the integer 521
+the reversed integer is: inf
+
+
+
+    
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
